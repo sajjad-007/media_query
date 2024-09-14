@@ -14,6 +14,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: var(--fontFranklin);
 }
 h1,h2,h3,h4,h5,h6,a{
     line-height: .8;
@@ -64,6 +65,13 @@ ul,ol{
     font-weight: 600;
     color: var(--sada);
 }
+.headingTwo{
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: .025em;
+    font-weight: 600;
+    color: var(--sada);
+}
 .commonPera{
     color: rgb(148 163 184);
     font-family: var(--fontFranklin);
@@ -76,8 +84,12 @@ ul,ol{
 
 nav{
     padding: 16px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
     width: 100%;
-    background-color: var(--primary);
+    background-color: transparent;
+    /* z-index: 9999; */
 }
 .nav_wrapper{
     display: flex;
@@ -102,7 +114,7 @@ nav{
     /* background-color: red; */
     margin-left: 80px;
 }
-.nav_menu ul {
+.nav_menu ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -186,8 +198,87 @@ nav{
 
 /* =======banner code End========== */
 
-/* =======Common code Start========== */
-/* =======Common code End========== */
+/* =======Who code Start========== */
+#who{
+    padding: 96px 0;
+    background-color: var(--primary);
+}
+.who_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.who_img{
+    height: 423px;
+    width: 423px;
+    background-color: blueviolet;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    object-fit: cover;
+    position: relative;
+}
+.who_img img{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.who_img_child{
+    height: 220px;
+    width: 220px;
+    border-radius: 100%;
+    background-color: var(--primary);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.who_img_child span {
+    color: var(--secondary);
+    font-size: 60px;
+    font-family: var(--fontFranklin);
+    font-weight: 600;
+}
+.who_img_child h5 {
+    color: var(--sada);
+    font-size: 15px;
+    font-family: var(--fontFranklin);
+    font-weight: 600;
+    width: 73px;
+    line-height: 1.9;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.who_content {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: start; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 423px;
+}
+.who_content h6{
+    color: var(--secondary);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.who_content button{
+    width: 170px;
+}
+.who_content i{
+    font-size: 9px;
+}
+/* =======Who code End========== */
 
 /* =======Common code Start========== */
 /* =======Common code End========== */
