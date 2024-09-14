@@ -1,3 +1,15 @@
+/* =======Common code Start========== */
+
+:root{
+    --primary: #0f172a;
+    --secondary: #14b8a6;
+    --secondaryOpa: #14b8a575;
+    --heroBg: #103743;
+    --sada: #fff;
+    --fontFranklin: "Libre Franklin", sans-serif;
+
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -16,51 +28,175 @@ ul,ol{
     width: 1024px;
     margin: 0 auto;
 }
+.navBtn{
+    font-size: 12px;
+    font-family: var(--fontFranklin);
+    font-weight: 500;
+    padding: 10px 20px;
+    background-color: var(--secondary);
+    color: var(--sada);
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
 
-/*  navbar section start */
-.navbar{
-    padding: 30px 10px;
+}
+.commonBtn{
+    font-size: 15px;
+    font-family: var(--fontFranklin);
+    font-weight: 600;
+    padding: 12px 26px;
+    background-color: var(--secondary);
+    color: var(--sada);
+    text-transform: capitalize;
+    border-radius: 7px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+
+}
+.headingOne{
+    font-size: 48px;
+    font-family: var(--fontFranklin);
+    line-height: 1.5;
+    letter-spacing: .025em;
+    font-weight: 600;
+    color: var(--sada);
+}
+.commonPera{
+    color: rgb(148 163 184);
+    font-family: var(--fontFranklin);
+    font-size: 17px;
+    line-height: 1.625;
+}
+/* =======Common code End========== */
+
+/* =======Navbar code Start========== */
+
+nav{
+    padding: 16px 0;
     width: 100%;
-    background-color: blueviolet;
+    background-color: var(--primary);
 }
 .nav_wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    /* padding: 10px 0; */
 }
 .nav_logo{
-    font-size: 26px;
-    color: white;
     cursor: pointer;
+    width: 140px;
+    height: 20px;
+    overflow: hidden;
+}
+.nav_logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.nav_menu {
+    /* background-color: red; */
+    margin-left: 80px;
 }
 .nav_menu ul {
     display: flex;
     align-items: center;
-    justify-content: center;
-    column-gap: 48px;
+    justify-content: space-between;
+    gap: 5px;
 }
 .nav_menu ul li a{
-    font-size: 17px;
-    color: white;
-    text-transform: capitalize;
+    font-size: 12px;
+    color: #fff9;
+    font-weight: 500;
+    line-height: normal;
+    font-family: var(--fontFranklin);
+    padding: .75rem;
+    letter-spacing: .05em;
+    text-transform: uppercase;
     cursor: pointer;
+    display: block;
+    transition: all linear .3s;
 }
-.nav_btn button{
-    padding: 18px 30px;
-    background-color: aqua;
-    color: black;
-    display: inline-block;
-    font-size: 14px;
-    border: none;
-    border-radius: 10px;
-    text-transform: capitalize;
-    cursor: pointer;
-
+.nav_menu ul li a.active{
+    color: var(--sada);
 }
-/*  navbar section end */
+.nav_menu ul li a:hover{
+    color: var(--sada);
+}
 
-/*  navbar section start */
-/*  navbar section end */
+/* =======Navbar code End========== */
 
-/*  navbar section start */
-/*  navbar section end */
+/* =======banner code Start========== */
+#banner{
+    padding: 160px 0;
+    background-color: var(--heroBg);
+}
+.banner_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.banner_content{
+    width: 455px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 24px;
+}
+.ban_btn button{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.ban_btn i{
+    font-size: 9px;
+}
+.banner_img{
+    width: 519px;
+    position: relative;
+}
+.banner_circle{
+    height: 528px;
+    width: 528px;
+    border-radius: 100%;
+    background-color: var(--secondaryOpa);
+    z-index: 11;
+}
+.banner_img .ban_image {
+    height: 400px;
+    width: 490px;
+    overflow: hidden;
+    position: absolute;
+    right: 31px;
+    top: 116px;
+    z-index: 999;
+}
+.ban_image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    z-index: 999;
+}
+
+/* =======banner code End========== */
+
+/* =======Common code Start========== */
+/* =======Common code End========== */
+
+/* =======Common code Start========== */
+/* =======Common code End========== */
+
+/* =======Common code Start========== */
+/* =======Common code End========== */
+
+/* =======Common code Start========== */
+/* =======Common code End========== */
+
+/* =======Common code Start========== */
+/* =======Common code End========== */
