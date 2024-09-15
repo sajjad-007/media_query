@@ -12,6 +12,7 @@
     --yellow: #fbbf24;
     --pera: #94a3b8;
     --lal: red;
+    --footerColor: #192132;
     --fontFranklin: "Libre Franklin", sans-serif;
 
 }
@@ -128,17 +129,8 @@ nav{
     flex-wrap: wrap;
     /* padding: 10px 0; */
 }
-.nav_logo{
+.nav_logo {
     cursor: pointer;
-    width: 140px;
-    height: 20px;
-    overflow: hidden;
-}
-.nav_logo img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    background-repeat: no-repeat;
 }
 .nav_menu {
     /* background-color: red; */
@@ -921,5 +913,56 @@ nav{
 /* =======Common code Start========== */
 /* =======Common code End========== */
 
-/* =======Common code Start========== */
-/* =======Common code End========== */
+/* =======footer code Start========== */
+footer{
+    padding: 30px 0;
+    background-color: var(--footerColor);
+}
+.footer_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.foot_icon span i {
+    font-size: 24px;
+    color: var(--secondary);
+}
+.foot_text p{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--sada);
+    text-transform: uppercase;
+}
+.footer_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 7px;
+}
+.foot_icons{
+    height: 30px;
+    width: 30px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--borderColor);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+.foot_icons:hover{
+    background-color: var(--secondary);
+}
+.foot_icons span i {
+    font-size: 18px;
+    color: var(--sada);
+}
+/* =======footer code End========== */
