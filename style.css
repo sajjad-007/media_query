@@ -10,6 +10,8 @@
     --ashes: #1e293b;
     --borderColor: #e5e7eb14;
     --yellow: #fbbf24;
+    --pera: #94a3b8;
+    --lal: red;
     --fontFranklin: "Libre Franklin", sans-serif;
 
 }
@@ -75,6 +77,7 @@ ul,ol{
     letter-spacing: .025em;
     font-weight: 600;
     color: var(--sada);
+    text-transform: capitalize;
 }
 .headingFive{
     font-size: 17px;
@@ -92,7 +95,7 @@ ul,ol{
     text-transform: uppercase;
 }
 .commonPera{
-    color: rgb(148 163 184);
+    color: var(--pera);
     font-family: var(--fontFranklin);
     font-size: 14px;
     line-height: 1.625;
@@ -666,7 +669,6 @@ nav{
     height: 70px;
     width: 70px;
     border-radius: 100%;
-    background-color: red;
     overflow: hidden;
     object-fit: cover;
     -webkit-box-shadow: 1px 1px 9px 0px rgba(247,244,247,0.69);
@@ -688,8 +690,155 @@ nav{
 }
 /* =======faq code End========== */
 
-/* =======Common code Start========== */
-/* =======Common code End========== */
+/* =======Pricing code Start========== */
+#pricing {
+    padding: 96px 0;
+    background-color: var(--ashes);
+}
+.price_head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 13px;
+    margin-bottom: 30px;
+}
+.price_head p {
+    width: 520px;
+    text-align: center;
+}
+.price_content{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 28px;
+    margin-top: 65px;
+}
+.price_chart {
+    width: 235px;
+    padding: 24px;
+    background-color: var(--primary);
+    border: 2px solid var(--borderColor);
+    border-radius: 6px;
+
+}
+.chart_head h6 {
+    font-size: 20px;
+    line-height: 28px;
+    color:  var(--sada);
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.chart_body_span{
+    display: flex;
+    align-items: center;
+
+}
+.chart_list{
+    margin-top: 20px;
+    height: auto;
+}
+.chart_body_span span:nth-child(1){
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    color: var(--sada);
+    margin-bottom: 14px;
+
+}
+.chart_body_span span:nth-child(2){
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 28px;
+    color: var(--sada);
+    margin-bottom: 0;
+
+}
+.chart_body_span span:nth-child(3){
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    color: var(--sada);
+    margin-bottom: -11px;
+    margin-left: 2px;
+
+}
+.chart_list ul {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.chart_list ul li{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    
+}
+.chart_list ul li span i {
+    color: var(--secondary);
+}
+.chart_list ul li span  {
+    margin-top: 2px;
+}
+.chart_list ul li p  {
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.chart_footer{
+    margin-top: 20px;
+}
+.chart_footer .commonBtn {
+    background-color: #14b8a50d;
+    color: var(--secondary);
+    padding: 12px 24px;
+    width: 100%;
+    transition: all linear .1s;
+}
+.chart_footer .commonBtn:hover{
+    background-color: var(--secondary);
+    color: var(--sada);
+}
+.price_chart.pad3{
+    padding: 0;
+}
+.price_chart3_pad{
+    padding: 24px;
+}
+.popular_price {
+    padding: 14px 24px;
+    background-color: var(--secondary);
+    height: 100%;
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+.popular_price h6{
+    color: var(--sada);
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 500;
+}
+.price_chart3_pad .chart_footer p {
+    font-size: 14px;
+    color: var(--pera);
+    margin-top: 10px;
+}
+.price_chart3_pad .chart_footer p span{
+    color: var(--lal);
+}
+.price_chart.last_chart{
+    border: 1px solid var(--secondary);
+}
+.commonPera.pera_last{
+    color: var(--sada);
+}
+.chart_list .last_list {
+    margin: 10px 0;
+}
+/* =======Pricing code End========== */
 
 /* =======Common code Start========== */
 /* =======Common code End========== */
