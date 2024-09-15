@@ -6,6 +6,7 @@
     --secondaryOpa: #14b8a575;
     --heroBg: #103743;
     --sada: #fff;
+    --sada2: #ffffffb3;
     --ashes: #1e293b;
     --borderColor: #e5e7eb14;
     --fontFranklin: "Libre Franklin", sans-serif;
@@ -83,6 +84,12 @@ ul,ol{
     cursor: pointer;
     text-transform: capitalize;
 }
+.headingSix{
+    color: var(--secondary);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 .commonPera{
     color: rgb(148 163 184);
     font-family: var(--fontFranklin);
@@ -95,6 +102,7 @@ ul,ol{
     opacity: 1;
     text-transform: capitalize;
     font-weight: normal;
+    cursor: pointer;
 }
 /* =======Common code End========== */
 
@@ -285,13 +293,6 @@ nav{
     width: 423px;
     margin-top: 50px;
 }
-.who_content h6{
-    color: var(--secondary);
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-
-}
 .who_content button{
     width: 170px;
 }
@@ -397,8 +398,9 @@ nav{
 
 /* =======Performance code Start========== */
 #performance{
-    padding: 96px 0;
+    padding: 96px 0 340px 0;
     background-color: var(--primary);
+    
 }
 .perform_header{
     display: flex;
@@ -414,6 +416,7 @@ nav{
 }
 .perform_boxes{
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     margin-top: 48px;
 }
@@ -493,6 +496,111 @@ nav{
     gap: 14px;
 }
 /* =======Performance code End========== */
+
+/* =======Get code Start========== */
+#get{
+    padding: 340px 0 96px 0;
+    background-color: var(--secondary);
+    /* position: relative; */
+    
+}
+ /* Laptop code Start */
+.main_wrapper{
+    position: relative;
+}
+.laptop_wrapper{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 998;
+}
+.laptop_img{
+    height: 450px;
+    width: 900px;
+    overflow: hidden;
+    object-fit: cover;
+    position: absolute;
+    left: 0px;
+    top: -565px;
+
+}
+.laptop_img img{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.play_btn{
+    z-index: 999;
+    position: absolute;
+    right: 400px;
+    bottom: 180px;
+}
+.play_circle {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    background-color: var(--primary);
+    font-weight: 800;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--sada);
+    font-size: 25px;
+    -webkit-box-shadow: -7px 11px 12px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -7px 11px 12px -5px rgba(0,0,0,0.75);
+    box-shadow: -7px 11px 12px -5px rgba(0,0,0,0.75);
+    
+}
+
+    /* Laptop code Start */
+.get_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.get_part1{
+    width: 243px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 18px;
+}
+.get_part1 h6{
+    color: var(--sada2);
+}
+.get_part2{
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+.get_part2 p {
+    color: var(--sada2);
+}
+.get_part2 .readMore {
+    color: var(--sada);
+
+}
+.get_part2 .readMore i{
+    font-size: 9px; 
+}
+/* =======Get code End========== */
+
+/* =======Common code Start========== */
+/* =======Common code End========== */
+
+/* =======Common code Start========== */
+/* =======Common code End========== */
+
+/* =======Common code Start========== */
+/* =======Common code End========== */
 
 /* =======Common code Start========== */
 /* =======Common code End========== */
