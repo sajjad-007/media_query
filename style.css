@@ -9,6 +9,7 @@
     --sada2: #ffffffb3;
     --ashes: #1e293b;
     --borderColor: #e5e7eb14;
+    --yellow: #fbbf24;
     --fontFranklin: "Libre Franklin", sans-serif;
 
 }
@@ -593,8 +594,99 @@ nav{
 }
 /* =======Get code End========== */
 
-/* =======Common code Start========== */
-/* =======Common code End========== */
+/* =======faq code Start========== */
+#faq{
+    padding: 96px 0;
+    background-color: var(--primary);
+}
+.faq_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+    margin: 0 auto;
+
+}
+.faq_header{
+    width: 510px;
+    text-align: center;
+}
+.faq_box{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 28px;
+}
+.faq_box_child{
+    width: 322px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 13px;
+}
+.faq_box_item{
+    width: 322px;
+    padding: 24px;
+    background-color: transparent;
+    border: 1px solid var(--borderColor);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 13px;
+}
+.faq_box_item .faq_quote i{
+    font-size: 39px;
+    color: var(--secondary);
+}
+.faq_box_item p {
+    text-align: center;
+    font-size: 16px;
+}
+.faq_box_item .faq_stars span i{
+    font-size: 16px;
+    color: var(--yellow);
+}
+.faq_profile {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 14px;
+}
+.faq_avatar{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    background-color: red;
+    overflow: hidden;
+    object-fit: cover;
+    -webkit-box-shadow: 1px 1px 9px 0px rgba(247,244,247,0.69);
+    -moz-box-shadow: 1px 1px 9px 0px rgba(247,244,247,0.69);
+    box-shadow: 1px 1px 9px 0px rgba(247,244,247,0.69);
+}
+.faq_avatar img{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.faq_name h6{
+    color: var(--sada);
+    text-transform: capitalize;
+}
+.faq_position p{
+    text-transform: capitalize;
+}
+/* =======faq code End========== */
 
 /* =======Common code Start========== */
 /* =======Common code End========== */
