@@ -1,0 +1,242 @@
+:root{
+    --primary: #0f172a;
+    --secondary: #14b8a6;
+    --secondaryOpa: #14b8a575;
+    --heroBg: #103743;
+    --sada: #fff;
+    --sada2: #ffffffb3;
+    --ashes: #1e293b;
+    --borderColor: #e5e7eb14;
+    --yellow: #fbbf24;
+    --pera: #94a3b8;
+    --lal: red;
+    --footerColor: #192132;
+    --fontFranklin: "Libre Franklin", sans-serif;
+
+}
+/* extra small device */
+@media (max-width:575.99px) {
+    /* common code start  */
+    .container{
+        width: 95%;
+    }
+    .headingSix {
+        font-size: 8px;
+    }
+    .headingThree {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .commonPera {
+        font-size: 10px;
+    }
+    .commonBtn {
+        font-size: 10px;
+        padding: 8px 17px;
+    }
+    /* common code end  */
+    
+    /* Navbar code start  */
+    nav {
+        padding: 12px 0;
+        background-color: var(--primary);
+    }
+    .nav_bars{
+        display: block;
+        color: var(--sada);
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .side_bars{
+        display: block;
+        height: auto;
+        background: var(--secondary);
+        position: absolute;
+        right: 0px;
+        top: -443px;
+        z-index: 999;
+        transition: all linear .3s;
+    }
+    .side_bars .nav_menu{
+        display: block;
+        margin-left: 0;
+        
+    }
+    .side_bars .nav_menu ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .side_bars .nav_menu li {
+        padding: 10px;
+        background-color: transparent;
+        width: 100%;
+        text-align: center;
+        transition: all linear .3s;
+    }
+    .side_bars .nav_menu li:hover {
+        background-color: var(--primary);
+    }
+    .nav_menu {
+        display: none;
+    }
+    .nav_btn{
+        display: none;
+    }
+    /* Navbar code end  */
+    
+    /* banner code start  */
+    #banner {
+        padding: 133px 0;
+    }
+    .banner_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .headingOne {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .banner_content {
+        width: auto;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .banner_content p{
+        width: 300px;
+    }
+    .banner_circle {
+        height: 310px;
+        width: 310px;
+    }
+    .banner_img {
+        width: 100%;
+        position: relative;
+    }
+    .banner_img .ban_image {
+        height: 350px;
+        width: inherit;
+        overflow: hidden;
+        position: absolute;
+        right: 0px;
+        top: 51px;
+        z-index: 999;
+    }
+    /* banner code end  */
+
+    /* who code start  */
+    #who {
+        padding: 60px 0;
+    }
+    .who_wrapper {
+        gap: 60px;
+        justify-content: center;
+    }
+    .who_img {
+        height: 300px;
+        width: 300px;
+    }
+    .who_content {
+        
+        gap: 11px;
+        width: auto;
+        margin-top: 25px;
+    }
+    .who_content button {
+        width: 108px;
+    }
+    .who_content p{
+        width: 300px;
+    }
+    .who_content h3{
+        width: 300px;
+    }
+    /* who code end  */
+
+    /* Service code start  */
+    .service_header p {
+        width: auto;
+        text-align: center;
+        width: 330px;
+    }
+    .service_box {
+        margin-top: 55px;
+        justify-content: center;
+    }
+    
+    /* Service code end  */
+
+    /* Performance code end  */
+    .perform_box1 {
+        margin: 0 auto;
+    }
+    .perform_img {
+        width: auto;
+        height: 354px;
+        border-radius: 6px;
+    }
+    .perform_header p {
+        width: auto;
+    }
+    .perform_content p {
+        width: auto;
+    }
+    /* Performance code end  */
+
+    /* get code start  */
+    #get {
+        padding: 220px 0 60px 0;
+    }
+    .laptop_img {
+        height: 200px;
+        width: 300px;
+        position: absolute;
+        left: 20px;
+        top: -276px;
+        margin: 0 auto;
+    }
+    .get_wrapper {
+        justify-content: start;
+        align-items: start;
+        gap: 15px;
+        padding-left: 80px;
+    }
+    .get_wrapper p {
+        width: 238px;
+    }
+    .get_part1 {
+        width: 215px;
+        align-items: start;
+        gap: 8px;
+    }
+    .get_part2 {
+        align-items: start;
+        gap: 8px;
+    }
+    .play_btn{
+        display: none;
+    }
+    /* get code end  */
+
+    /* common code start  */
+    /* common code end  */
+
+    /* common code start  */
+    /* common code end  */
+
+    /* common code start  */
+    /* common code end  */
+
+    /* common code start  */
+    /* common code end  */
+
+    /* common code start  */
+    /* common code end  */
+}

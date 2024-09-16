@@ -129,6 +129,12 @@ nav{
     flex-wrap: wrap;
     /* padding: 10px 0; */
 }
+.nav_bars{
+    display: none;
+}
+.side_bars{
+    display: none;
+}
 .nav_logo {
     cursor: pointer;
 }
