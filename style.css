@@ -910,8 +910,78 @@ nav{
 }
 /* =======Blog code End========== */
 
-/* =======Common code Start========== */
-/* =======Common code End========== */
+/* =======form code Start========== */
+#form{
+    padding: 96px 0;
+    background-color: var(--ashes);
+}
+.form_wrapper {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 30px;
+}
+.form_img{
+    width: 534px;
+    height: 534px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.form_img img{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form_part{
+    width: 355px;
+    padding: 24px;
+    background-color: var(--primary);
+    border-radius: 9px;
+    margin-top: 60px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 18px;
+}
+.name_email{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.form_part input{
+    padding: 9px 13px;
+    background-color: transparent;
+    border: none;
+    border: 2px solid var(--borderColor);
+    border-radius: 6px;
+    font-size: 14px;
+    color: var(--sada);
+    font-weight: 500;
+    width: 311px;
+}
+.name_email input{
+    width: 147px;
+}
+.form_part p {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--sada);
+    text-transform: capitalize;
+    margin-bottom: 9px;
+}
+textarea{
+    background-color: transparent;
+    color: var(--sada);
+    width: 311px;
+    border-radius: 6px;
+    font-size: 14px;
+    border: 2px solid var(--borderColor);
+    padding: 9px 13px;
+    height: 111px;
+}
+/* =======form code End========== */
 
 /* =======footer code Start========== */
 footer{
