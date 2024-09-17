@@ -680,29 +680,7 @@
         justify-content: center;
         margin: 0 32px;
     }
-    .box1_item{
-        transition: all linear .3s;
-        border: 1px solid var(--secondary);
-    }
-    .box1_item h5 {
-        color: var(--sada);
-        font-size: 11px;
-        font-weight: 500;
-        line-height: 17px;
-        transition: all linear .3s;
-    }
-    .perform_box1 .box1_item:hover h5{
-        color: var(--sada);
-    }
-    .perform_box1 .box1_item:hover{
-        background-color: var(--secondary);
-    }
-    .perform_box1 .box1_item.active{
-        border: 1px solid var(--secondary);
-    }
-    .perform_box1 .box1_item.active:hover{
-        background-color: transparent;
-    }
+    
     .perform_img {
         width: 302px;
         height: 183px;

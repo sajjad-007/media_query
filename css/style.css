@@ -444,17 +444,24 @@ nav{
     background-color: transparent;
     border-radius: 6px;
     cursor: pointer;
+    border: 1px solid var(--secondary);
     transition: all linear .3s;
 
 }
 .perform_box1 .box1_item.active{
     background-color: var(--secondary);
 }
+.perform_box1 .box1_item.active:hover{
+    background-color: transparent;
+}
 .perform_box1 .box1_item.active:hover h5{
-    color: var(--sada);
+    color: var(--secondary);
+}
+.perform_box1 .box1_item:hover{
+    background-color: var(--secondary);
 }
 .perform_box1 .box1_item:hover h5{
-    color: var(--secondary);
+    color: var(--sada);
 
 }
 .box1_item h5{
