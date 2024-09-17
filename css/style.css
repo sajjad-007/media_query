@@ -179,6 +179,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 40px;
 }
 .banner_content{
@@ -538,6 +539,12 @@ nav{
     position: absolute;
     right: 400px;
     bottom: 180px;
+}
+.play_btn a {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .play_circle {
     height: 120px;
@@ -1006,7 +1013,7 @@ footer{
     gap: 10px;
     cursor: pointer;
 }
-.foot_icon span i {
+.foot_icon a i {
     font-size: 24px;
     color: var(--secondary);
 }
@@ -1037,7 +1044,7 @@ footer{
 .foot_icons:hover{
     background-color: var(--secondary);
 }
-.foot_icons span i {
+.foot_icons a i {
     font-size: 18px;
     color: var(--sada);
 }
