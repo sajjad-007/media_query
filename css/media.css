@@ -127,6 +127,7 @@
     .banner_img {
         width: 330px;
         position: relative;
+        z-index: 990;
     }
     .banner_img .ban_image {
         height: 240px;
@@ -135,7 +136,7 @@
         position: absolute;
         right: 0px;
         top: 51px;
-        z-index: 999;
+        z-index: 990;
     }
     /* banner code end  */
 
@@ -557,12 +558,14 @@
     }
     .banner_img {
         padding: 0px 30px 0 0;
+        z-index: 990;
     }
     .banner_img .ban_image {
         height: 350px;
         width: 416px;
         right: 95px;
         top: 85px;
+        z-index: 990;
     }
     /* Banner end end */
 
@@ -924,11 +927,321 @@
     }
     /* footer end end */
     
-    /* common code start */
-    /* common end end */
-    
-    /* common code start */
-    /* common end end */
 
     
 }
+/* ================Medium device =======================*/
+    
+@media (min-width:768px) and (max-width:991.99px) {
+    /* common code start */
+    .container{
+        width: 97%;
+    }
+    .commonBtn {
+        font-size: 13px;
+        padding: 12px 14px;
+    }
+    .headingThree {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .headingSix {
+        font-size: 11px;
+    }
+    .headingThree {
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .commonPera {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+    .readMore {
+        font-size: 11px;
+    }
+    /* common code end */
+
+    /* Navbar code start */
+    nav {
+        padding: 23px 0;
+        background-color: var(--primary);
+        /* z-index: 9999; */
+    }
+    .nav_bars{
+        display: block;
+        color: var(--sada);
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .nav_menu {
+        display: none;
+    }
+    .nav_btn{
+        display: none;
+    }
+    .side_bars{
+        display: block;
+        height: auto;
+        background: var(--secondary);
+        position: absolute;
+        right: 0px;
+        top: -443px;
+        z-index: 999;
+        border-radius: 16px 0 0 16px;
+        transition: all linear .3s;
+    }
+    .side_bars .nav_menu{
+        display: block;
+        margin-left: 0;
+        
+    }
+    .side_bars .nav_menu ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 5px;
+        overflow: hidden;
+    }
+    .side_bars .nav_menu li {
+        padding: 10px;
+        background-color: transparent;
+        width: 100%;
+        text-align: center;
+        transition: all linear .3s;
+        border-radius: 16px 0 0 16px;
+    }
+    .side_bars .nav_menu li:hover {
+        background-color: var(--primary);
+    }
+    /* Navbar code end */
+
+    /* banner code start */
+    #banner {
+        padding: 134px 0;
+    }
+    .headingOne {
+        font-size: 35px;
+        line-height: 1.3;
+        letter-spacing: .025em;
+
+    }
+    
+    /* banner code end */
+
+    /* Who code start */
+    #who {
+        padding: 70px 0;
+    }
+    .who_wrapper {
+        gap: 46px;
+        justify-content: center;
+    }
+    .who_img {
+        height: 350px;
+        width: 350px;
+    }
+    .who_img_child span {
+        font-size: 50px;
+    }
+    .who_img_child h5 {
+        font-size: 13px;
+        line-height: 1.4;
+       
+    }
+    .who_content {
+        display: flex;
+        gap: 16px;
+        width: 325px;
+        margin-top: 25px;
+    }
+    
+    .who_content button {
+        width: 123px;
+    }
+    
+    /* Who code end */
+
+    /* Service code start */
+    #service {
+        padding: 60px 0;
+    }
+    .service_item {
+        width: 231px;
+        padding: 17px;
+    }
+    .service_box {
+        justify-content: center;
+        gap: 24px;
+    }
+    /* Service code end */
+
+    /* Perform code start */
+    #performance {
+        padding: 59px 0 239px 0;
+    }
+    .perform_boxes {
+        gap: 24px;
+        margin-top: 34px;
+        justify-content: center;
+    }
+    .perform_box1 {
+        width: 234px;
+        padding: 34px;
+        gap: 47px;
+    }
+    .box1_item h5 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .perform_box2 {
+        width: 490px;
+        padding: 10px;
+        gap: 20px;
+        margin-bottom: 119px;
+    }
+
+    .perform_img {
+        width: 470px;
+        height: 302px;
+    }
+    .perform_box1 .box1_item {
+        padding: 6px 12px;
+    }
+    .perform_header {
+        gap: 5px;
+    }
+    .perform_header p {
+        width: 400px;
+        text-align: center;
+    }
+    .perform_box1 {
+        width: 234px;
+        padding: 34px;
+        gap: 47px;
+    }
+    .perform_content a i{
+        font-size: 8px;
+    }
+    /* Perform code end */
+
+    /* Get code start */
+    #get {
+        padding: 279px 0 63px 0;
+    }
+    .laptop_img {
+        height: 346px;
+        width: 750px;
+        left: 0px;
+        top: -450px;
+    }
+    .get_wrapper {
+        gap: 0px;
+        justify-content: space-evenly;
+    }
+    .play_circle {
+        font-size: 30px;
+        height: 100px;
+        width: 100px;
+    }
+    .play_btn {
+        z-index: 999;
+        position: absolute;
+        right: 344px;
+        bottom: 120px;
+    }
+    /* Get code end */
+
+    /* Faq code start */
+    #faq {
+        padding: 62px 0;
+    }
+    .faq_box {
+        margin-top: 20px;
+        gap: 2px;
+        justify-content: center;
+    }
+    .faq_avatar {
+        height: 60px;
+        width: 60px;
+    }
+    .faq_box_item {
+        width: 299px;
+        padding: 11px;
+        gap: 9px;
+    }
+    .faq_box_item .faq_quote i {
+        font-size: 32px;
+    }
+    .faq_box_item p {
+        font-size: 14px;
+    }
+    .faq_box_item .faq_stars span i {
+        font-size: 11px;
+    }
+    .faq_avatar {
+        height: 48px;
+        width: 48px;
+    }
+    /* Faq code end */
+
+    /* Price code start */
+    #pricing {
+        padding: 47px 0;
+    }
+    #pricing {
+        padding: 47px 0;
+        background-color: var(--ashes);
+    }
+    .price_content {
+        gap: 13px;
+        margin-top: 42px;
+        justify-content: center;
+    }
+    .chart_head h6 {
+        font-size: 17px;
+        line-height: 14px;
+        margin-bottom: 14px;
+    }
+    .chart_body_span span:nth-child(1) {
+        font-size: 14px;
+    }
+    .chart_body_span span:nth-child(2) {
+        font-size: 37px;
+    }
+    .chart_body_span span:nth-child(3) {
+        font-size: 14px;
+    }
+    .popular_price h6 {
+        font-size: 17px;
+    }
+    .chart_list ul li p {
+        font-size: 13px;
+    }
+    .price_chart3_pad .chart_footer p {
+        font-size: 12px;
+        margin-top: 8px;
+    }
+    /* Price code end */
+
+    /* blog code start */
+    #blog {
+        padding: 56px 0;
+    }
+    .blog_item {
+        width: 291px;
+    }
+    .blog_item_img {
+        width: 291px;
+        height: 194px;
+    }
+    /* blog code end */
+
+    /* common code start */
+    /* common code end */
+
+    /* common code start */
+    /* common code end */
+}
+/* ================Medium device =======================*/
