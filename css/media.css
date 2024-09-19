@@ -1333,12 +1333,18 @@
     .who_content button {
         width: 145px;
     }
+    .who_wrapper {
+        justify-content: center;
+    }
     /* Who code end */
 
     /* service code start */
     #service {
         padding: 72px 0;
         background-color: var(--ashes);
+    }
+    .service_box {
+        justify-content: center;
     }
     .service_item {
         width: 225px;
@@ -1418,10 +1424,40 @@
     }
     /* form code end */
 
-    /* common code start */
-    /* common code end */
-
-    /* common code start */
-    /* common code end */
+    
 }
 /* ================Large device =======================*/
+
+/* ================Extra Large device =======================*/
+/* Extra Large device */
+@media (min-width:1200px) and (max-width:1399.99px) {
+    .container{
+        width: 1150px;
+    }
+    /* banner code start */
+    #banner {
+        padding: 113px 0;
+    }
+}
+/* ================Extra Large device =======================*/
+
+/* ================Extra Large device =======================*/
+/* Extra Extra Large device */
+@media (min-width:1400px) {
+    .container{
+        width: 1250px;
+    }
+    .nav_menu ul li a {
+        font-size: 14px;
+    }
+    .foot_icon a i {
+        font-size: 28px;
+    }
+    .foot_text p {
+        font-size: 23px;
+    }
+    .navBtn {
+        font-size: 15px;
+    }
+}
+/* ================Extra Large device =======================*/
