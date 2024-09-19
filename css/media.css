@@ -1227,19 +1227,50 @@
 
     /* blog code start */
     #blog {
-        padding: 56px 0;
-    }
-    .blog_item {
-        width: 291px;
+        padding: 47px 0;
     }
     .blog_item_img {
-        width: 291px;
-        height: 194px;
+        width: 271px;
+        height: 188px;
+    }
+    .blog_boxes {
+        margin-top: 41px;
+    }
+    .blog_item {
+        width: 262px;
+    }
+    .commonPera.pera_long {
+        width: 262px;
+    }
+    .blog_boxes {
+        justify-content: center;
+        gap: 35px;
     }
     /* blog code end */
 
-    /* common code start */
-    /* common code end */
+    /* form  code start */
+    .form_part {
+        width: 318px;
+        padding: 19px;
+        gap: 18px;
+    }
+    .name_email input {
+        width: 132px;
+    }
+    .question .name input {
+        width: 280px;
+    }
+    textarea {
+        width: 278px;
+        height: 85px;
+    }
+    .form_part p {
+        font-size: 15px;
+    }
+    .form_wrapper {
+        margin-top: -13px;
+    }
+    /* form  code end */
 
     /* common code start */
     /* common code end */
