@@ -1272,7 +1272,156 @@
     }
     /* form  code end */
 
+    
+}
+/* ================Medium device =======================*/
+
+/* ================Large device =======================*/
+/* Large device */
+@media (min-width:992px) and (max-width:1199.99px) {
+    /* common code start */
+    .container {
+        width: 98%;
+    }
+    .commonPera {
+        font-size: 13px;
+        line-height: 1.48;
+    }
+
+    /* common code end */
+
+    /* Navbar code start */
+    nav {
+        padding: 18px 0;
+    }
+    /* Navbar code end */
+
+    /* banner code start */
+    #banner {
+        padding: 129px 0;
+    }
+    .banner_content {
+        width: 403px;
+        gap: 24px;
+    }
+    .headingOne {
+        font-size: 45px;
+        line-height: 1.2;
+        letter-spacing: .026em;
+    }
+    .banner_circle {
+        height: 500px;
+        width: 500px;
+    }
+    .banner_img .ban_image {
+        height: 379px;
+        width: 460px;
+        right: 42px;
+        top: 87px;
+    }
+    .ban_btn button {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+    }
+    /* banner code end */
+
+    /* Who code start */
+    #who {
+        padding: 85px 0;
+    }
+    .who_content button {
+        width: 145px;
+    }
+    /* Who code end */
+
+    /* service code start */
+    #service {
+        padding: 72px 0;
+        background-color: var(--ashes);
+    }
+    .service_item {
+        width: 225px;
+        padding: 19px;
+    }
+    .readMore {
+        font-size: 14px;
+    }
+    /* service code end */
+
+    /* Performance code start */
+    #performance {
+        padding: 70px 0 340px 0;
+    }
+    .perform_boxes {
+        margin-top: 32px;
+        justify-content: center;
+
+    }
+    /* Performance code end */
+
+    /* Faq code start */
+    #faq {
+        padding: 65px 0;
+    }
+    .faq_box {
+        margin-top: 44px;
+        justify-content: center;
+    }
+    .faq_box_child {
+        width: 297px;
+    }
+    .faq_box_item {
+        width: 305px;
+        padding: 10px;
+        gap: 13px;
+    }
+    .faq_avatar {
+        height: 65px;
+        width: 65px;
+    }
+    .faq_box {
+        margin-top: 11px;
+    }
+    /* Faq code end */
+
+    /* common code start */
+    #pricing {
+        padding: 70px 0px;
+    }
+    .price_content {
+        justify-content: center;
+        gap: 10px;
+    }
+    /* common code end */
+
+    /* Blog code start */
+    #blog {
+        padding: 70px 0;
+    }
+    .blog_item {
+        width: 303px;
+    }
+    .blog_boxes {
+        justify-content: center;
+        gap: 15px;
+    }
+    .blog_item_img {
+        width: 303px;
+        height: 200px;
+    }
+    /* Blog code end */
+
+    /* form code start */
+    #form {
+        padding: 68px 0;
+    }
+    /* form code end */
+
+    /* common code start */
+    /* common code end */
+
     /* common code start */
     /* common code end */
 }
-/* ================Medium device =======================*/
+/* ================Large device =======================*/
