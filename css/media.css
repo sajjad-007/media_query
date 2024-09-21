@@ -1431,9 +1431,6 @@
 /* ================Extra Large device =======================*/
 /* Extra Large device */
 @media (min-width:1200px) and (max-width:1399.99px) {
-    .container{
-        width: 1150px;
-    }
     /* banner code start */
     #banner {
         padding: 113px 0;
@@ -1444,9 +1441,6 @@
 /* ================Extra Large device =======================*/
 /* Extra Extra Large device */
 @media (min-width:1400px) {
-    .container{
-        width: 1250px;
-    }
     .nav_menu ul li a {
         font-size: 14px;
     }
